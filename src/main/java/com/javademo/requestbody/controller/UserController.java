@@ -27,4 +27,5 @@ public class UserController {
     public String getHeader(@RequestHeader("My-Header") String myHeader) {
         return "Your header is : " + myHeader;
     }
+
 }
